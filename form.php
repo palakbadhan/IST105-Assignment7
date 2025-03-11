@@ -36,11 +36,15 @@
         button:hover {
             background: #218838;
         }
+        h2 {
+            text-decoration : underline;
+        }
     </style>
 </head>
 <body>
 
     <h2>Bitwise Operations</h2>
+    <!-- Here i underlined h2, in order to practice branch merging. -->
     <form action="process.php" method="GET">
         <input type="text" name="numbers" placeholder="Enter numbers, e.g., 3,5,7,9" required>
         <input type="number" name="threshold" placeholder="Enter threshold" required>
